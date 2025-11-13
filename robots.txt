@@ -1,0 +1,61 @@
+User-agent: *
+Allow: /
+Disallow:/finalizacao/carrinho
+Disallow:/account*
+Disallow:/*/?map=productClusterIds
+Disallow:/listas*
+Disallow:/appnativo*
+Disallow:/Custom/Content/Themes/Bemol/Templates/landings*
+Disallow:/web-api/v1/Shopping/Seller*
+Disallow:/Login.partial?Url=/appnativo*
+Disallow:/login
+Disallow:/lista-teste
+Disallow: /pagina-teste*
+Disallow: /*map=
+Disallow: /kit-mkt*
+Disallow: /emprestimo-pessoal
+Disallow: /simulacao-de-juros
+Disallow: /faq-contabemol
+Disallow: /parceirosbemol
+Disallow: /*productLinkNotFound*
+Disallow: /lp*
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+# Allow ChatGPT and OpenAI bots
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow Google bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude Search
+User-agent: ClaudeBot
+Allow: /
+
+# Bing Chat / Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: EtaoSpider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://www.bemol.com.br/sitemap.xml
